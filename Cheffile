@@ -16,3 +16,6 @@ cookbook "rails", path: "vendor/cookbooks/rails"
 cookbook "ssh_deploy_keys", path: "vendor/cookbooks/ssh_deploy_keys"
 cookbook "backups", path: "vendor/cookbooks/backups"
 cookbook "sysadmins", path: "vendor/cookbooks/sysadmins"
+
+#omnYbus cookbooks
+cookbook "phusion-apt", path: "omnybus/cookbooks/phusion-apt"

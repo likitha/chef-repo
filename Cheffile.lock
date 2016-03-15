@@ -65,6 +65,11 @@ SITE
       yum (>= 3.0)
 
 PATH
+  remote: omnybus/cookbooks/phusion-apt
+  specs:
+    phusion-apt (0.1.0)
+
+PATH
   remote: vendor/cookbooks/backups
   specs:
     backups (0.1.0)
@@ -100,6 +105,7 @@ DEPENDENCIES
   mysql (~> 5.3.6)
   nginx (~> 2.7.4)
   packages (>= 0)
+  phusion-apt (>= 0)
   postfix (~> 3.6.2)
   postgresql (~> 3.4.1)
   rails (>= 0)
